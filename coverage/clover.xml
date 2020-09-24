@@ -1,0 +1,636 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1584975936267" clover="3.2.0">
+  <project timestamp="1584975936268" name="All files">
+    <metrics statements="513" coveredstatements="417" conditionals="157" coveredconditionals="123" methods="186" coveredmethods="139" elements="856" coveredelements="679" complexity="0" loc="513" ncloc="513" packages="9" files="30" classes="30"/>
+    <package name="src">
+      <metrics statements="141" coveredstatements="91" conditionals="33" coveredconditionals="16" methods="48" coveredmethods="26"/>
+      <file name="App.js" path="C:\Users\Eier\Desktop\shopstop\01\src\App.js">
+        <metrics statements="137" coveredstatements="88" conditionals="33" coveredconditionals="16" methods="48" coveredmethods="26"/>
+        <line num="25" count="1" type="stmt"/>
+        <line num="47" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="48" count="1" type="stmt"/>
+        <line num="50" count="1" type="stmt"/>
+        <line num="51" count="1" type="stmt"/>
+        <line num="52" count="1" type="cond" truecount="2" falsecount="2"/>
+        <line num="53" count="0" type="stmt"/>
+        <line num="54" count="0" type="stmt"/>
+        <line num="55" count="0" type="stmt"/>
+        <line num="56" count="0" type="stmt"/>
+        <line num="65" count="1" type="stmt"/>
+        <line num="66" count="1" type="stmt"/>
+        <line num="74" count="1" type="stmt"/>
+        <line num="76" count="0" type="stmt"/>
+        <line num="77" count="0" type="stmt"/>
+        <line num="84" count="1" type="stmt"/>
+        <line num="94" count="1" type="stmt"/>
+        <line num="95" count="1" type="stmt"/>
+        <line num="96" count="1" type="stmt"/>
+        <line num="98" count="0" type="stmt"/>
+        <line num="99" count="0" type="stmt"/>
+        <line num="100" count="0" type="stmt"/>
+        <line num="113" count="1" type="stmt"/>
+        <line num="114" count="2" type="stmt"/>
+        <line num="115" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="116" count="1" type="stmt"/>
+        <line num="119" count="1" type="stmt"/>
+        <line num="129" count="1" type="stmt"/>
+        <line num="130" count="1" type="stmt"/>
+        <line num="132" count="0" type="stmt"/>
+        <line num="133" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="134" count="0" type="stmt"/>
+        <line num="135" count="0" type="stmt"/>
+        <line num="137" count="0" type="stmt"/>
+        <line num="154" count="1" type="stmt"/>
+        <line num="155" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="156" count="1" type="stmt"/>
+        <line num="157" count="1" type="stmt"/>
+        <line num="159" count="0" type="stmt"/>
+        <line num="160" count="0" type="cond" truecount="0" falsecount="4"/>
+        <line num="161" count="0" type="stmt"/>
+        <line num="162" count="0" type="stmt"/>
+        <line num="163" count="0" type="stmt"/>
+        <line num="165" count="0" type="stmt"/>
+        <line num="166" count="0" type="stmt"/>
+        <line num="176" count="1" type="stmt"/>
+        <line num="178" count="1" type="stmt"/>
+        <line num="185" count="1" type="stmt"/>
+        <line num="186" count="1" type="stmt"/>
+        <line num="193" count="1" type="stmt"/>
+        <line num="194" count="1" type="stmt"/>
+        <line num="202" count="1" type="stmt"/>
+        <line num="203" count="1" type="stmt"/>
+        <line num="204" count="1" type="stmt"/>
+        <line num="207" count="0" type="stmt"/>
+        <line num="208" count="0" type="stmt"/>
+        <line num="209" count="0" type="stmt"/>
+        <line num="211" count="0" type="stmt"/>
+        <line num="213" count="0" type="stmt"/>
+        <line num="225" count="1" type="stmt"/>
+        <line num="226" count="1" type="stmt"/>
+        <line num="228" count="0" type="stmt"/>
+        <line num="229" count="0" type="stmt"/>
+        <line num="232" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="233" count="0" type="stmt"/>
+        <line num="238" count="0" type="stmt"/>
+        <line num="239" count="0" type="stmt"/>
+        <line num="240" count="0" type="stmt"/>
+        <line num="250" count="1" type="stmt"/>
+        <line num="251" count="2" type="stmt"/>
+        <line num="260" count="1" type="stmt"/>
+        <line num="261" count="3" type="stmt"/>
+        <line num="262" count="3" type="stmt"/>
+        <line num="263" count="3" type="stmt"/>
+        <line num="265" count="3" type="stmt"/>
+        <line num="275" count="1" type="stmt"/>
+        <line num="276" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="277" count="0" type="stmt"/>
+        <line num="279" count="1" type="cond" truecount="3" falsecount="1"/>
+        <line num="280" count="1" type="stmt"/>
+        <line num="282" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="283" count="0" type="stmt"/>
+        <line num="284" count="0" type="stmt"/>
+        <line num="288" count="0" type="stmt"/>
+        <line num="291" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="292" count="0" type="stmt"/>
+        <line num="299" count="0" type="stmt"/>
+        <line num="317" count="1" type="stmt"/>
+        <line num="318" count="4" type="cond" truecount="3" falsecount="0"/>
+        <line num="330" count="1" type="stmt"/>
+        <line num="331" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="332" count="1" type="stmt"/>
+        <line num="334" count="1" type="stmt"/>
+        <line num="337" count="0" type="stmt"/>
+        <line num="338" count="0" type="stmt"/>
+        <line num="340" count="0" type="stmt"/>
+        <line num="350" count="1" type="stmt"/>
+        <line num="351" count="1" type="stmt"/>
+        <line num="359" count="1" type="stmt"/>
+        <line num="360" count="1" type="stmt"/>
+        <line num="368" count="1" type="stmt"/>
+        <line num="369" count="1" type="stmt"/>
+        <line num="377" count="3" type="stmt"/>
+        <line num="380" count="2" type="stmt"/>
+        <line num="387" count="0" type="stmt"/>
+        <line num="392" count="1" type="stmt"/>
+        <line num="403" count="0" type="stmt"/>
+        <line num="417" count="0" type="stmt"/>
+        <line num="430" count="0" type="stmt"/>
+        <line num="445" count="0" type="stmt"/>
+        <line num="458" count="1" type="stmt"/>
+        <line num="459" count="1" type="stmt"/>
+        <line num="480" count="1" type="stmt"/>
+        <line num="481" count="1" type="stmt"/>
+        <line num="482" count="1" type="stmt"/>
+        <line num="483" count="1" type="stmt"/>
+        <line num="484" count="1" type="stmt"/>
+        <line num="485" count="1" type="stmt"/>
+        <line num="486" count="1" type="stmt"/>
+        <line num="490" count="1" type="stmt"/>
+        <line num="494" count="1" type="stmt"/>
+        <line num="495" count="1" type="stmt"/>
+        <line num="496" count="1" type="stmt"/>
+        <line num="497" count="1" type="stmt"/>
+        <line num="498" count="1" type="stmt"/>
+        <line num="499" count="1" type="stmt"/>
+        <line num="500" count="1" type="stmt"/>
+        <line num="501" count="1" type="stmt"/>
+        <line num="502" count="1" type="stmt"/>
+        <line num="506" count="1" type="stmt"/>
+        <line num="507" count="1" type="stmt"/>
+        <line num="511" count="1" type="stmt"/>
+        <line num="512" count="1" type="stmt"/>
+        <line num="513" count="1" type="stmt"/>
+        <line num="514" count="1" type="stmt"/>
+        <line num="515" count="1" type="stmt"/>
+        <line num="520" count="1" type="stmt"/>
+      </file>
+      <file name="Constants.js" path="C:\Users\Eier\Desktop\shopstop\01\src\Constants.js">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="3" count="9" type="stmt"/>
+        <line num="4" count="9" type="stmt"/>
+        <line num="5" count="9" type="stmt"/>
+      </file>
+      <file name="index.js" path="C:\Users\Eier\Desktop\shopstop\01\src\index.js">
+        <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="7" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components.groupmember">
+      <metrics statements="27" coveredstatements="25" conditionals="15" coveredconditionals="13" methods="13" coveredmethods="11"/>
+      <file name="AddMember.js" path="C:\Users\Eier\Desktop\shopstop\01\src\components\groupmember\AddMember.js">
+        <metrics statements="9" coveredstatements="9" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
+        <line num="11" count="7" type="stmt"/>
+        <line num="20" count="7" type="stmt"/>
+        <line num="21" count="1" type="stmt"/>
+        <line num="26" count="7" type="stmt"/>
+        <line num="27" count="1" type="stmt"/>
+        <line num="28" count="1" type="stmt"/>
+        <line num="29" count="1" type="stmt"/>
+        <line num="38" count="8" type="stmt"/>
+        <line num="51" count="4" type="stmt"/>
+      </file>
+      <file name="GroupMemberPage.js" path="C:\Users\Eier\Desktop\shopstop\01\src\components\groupmember\GroupMemberPage.js">
+        <metrics statements="4" coveredstatements="4" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2"/>
+        <line num="19" count="3" type="stmt"/>
+        <line num="20" count="1" type="stmt"/>
+        <line num="30" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="62" count="2" type="stmt"/>
+      </file>
+      <file name="GroupMemberView.js" path="C:\Users\Eier\Desktop\shopstop\01\src\components\groupmember\GroupMemberView.js">
+        <metrics statements="8" coveredstatements="7" conditionals="6" coveredconditionals="5" methods="5" coveredmethods="4"/>
+        <line num="12" count="6" type="stmt"/>
+        <line num="21" count="6" type="stmt"/>
+        <line num="22" count="6" type="stmt"/>
+        <line num="30" count="6" type="stmt"/>
+        <line num="31" count="0" type="stmt"/>
+        <line num="41" count="6" type="stmt"/>
+        <line num="57" count="4" type="stmt"/>
+        <line num="72" count="3" type="stmt"/>
+      </file>
+      <file name="MemberItem.js" path="C:\Users\Eier\Desktop\shopstop\01\src\components\groupmember\MemberItem.js">
+        <metrics statements="6" coveredstatements="5" conditionals="7" coveredconditionals="6" methods="3" coveredmethods="2"/>
+        <line num="16" count="7" type="stmt"/>
+        <line num="17" count="9" type="stmt"/>
+        <line num="27" count="7" type="stmt"/>
+        <line num="28" count="7" type="stmt"/>
+        <line num="39" count="0" type="stmt"/>
+        <line num="52" count="4" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components.groupoverview">
+      <metrics statements="38" coveredstatements="33" conditionals="6" coveredconditionals="5" methods="17" coveredmethods="15"/>
+      <file name="GroupItem.js" path="C:\Users\Eier\Desktop\shopstop\01\src\components\groupoverview\GroupItem.js">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="16" count="30" type="stmt"/>
+        <line num="17" count="30" type="stmt"/>
+        <line num="27" count="2" type="stmt"/>
+      </file>
+      <file name="GroupView.js" path="C:\Users\Eier\Desktop\shopstop\01\src\components\groupoverview\GroupView.js">
+        <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="11" count="6" type="stmt"/>
+        <line num="20" count="6" type="stmt"/>
+        <line num="21" count="1" type="stmt"/>
+        <line num="31" count="10" type="stmt"/>
+        <line num="50" count="2" type="stmt"/>
+      </file>
+      <file name="Groups.js" path="C:\Users\Eier\Desktop\shopstop\01\src\components\groupoverview\Groups.js">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="15" count="10" type="stmt"/>
+        <line num="18" count="30" type="stmt"/>
+        <line num="26" count="2" type="stmt"/>
+      </file>
+      <file name="Overview.js" path="C:\Users\Eier\Desktop\shopstop\01\src\components\groupoverview\Overview.js">
+        <metrics statements="27" coveredstatements="22" conditionals="6" coveredconditionals="5" methods="12" coveredmethods="10"/>
+        <line num="23" count="7" type="stmt"/>
+        <line num="24" count="6" type="stmt"/>
+        <line num="32" count="7" type="stmt"/>
+        <line num="33" count="3" type="stmt"/>
+        <line num="41" count="7" type="stmt"/>
+        <line num="42" count="3" type="stmt"/>
+        <line num="43" count="9" type="stmt"/>
+        <line num="46" count="3" type="stmt"/>
+        <line num="47" count="3" type="stmt"/>
+        <line num="48" count="3" type="stmt"/>
+        <line num="57" count="7" type="stmt"/>
+        <line num="58" count="1" type="stmt"/>
+        <line num="59" count="1" type="stmt"/>
+        <line num="60" count="3" type="stmt"/>
+        <line num="62" count="1" type="stmt"/>
+        <line num="73" count="7" type="stmt"/>
+        <line num="74" count="1" type="cond" truecount="2" falsecount="0"/>
+        <line num="93" count="7" type="stmt"/>
+        <line num="94" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="95" count="1" type="stmt"/>
+        <line num="99" count="0" type="stmt"/>
+        <line num="100" count="0" type="stmt"/>
+        <line num="102" count="0" type="stmt"/>
+        <line num="103" count="0" type="stmt"/>
+        <line num="107" count="0" type="stmt"/>
+        <line num="126" count="10" type="cond" truecount="2" falsecount="0"/>
+        <line num="143" count="2" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components.grouppage">
+      <metrics statements="74" coveredstatements="65" conditionals="14" coveredconditionals="14" methods="31" coveredmethods="24"/>
+      <file name="AddShoppingList.js" path="C:\Users\Eier\Desktop\shopstop\01\src\components\grouppage\AddShoppingList.js">
+        <metrics statements="9" coveredstatements="9" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
+        <line num="11" count="6" type="stmt"/>
+        <line num="19" count="6" type="stmt"/>
+        <line num="20" count="1" type="stmt"/>
+        <line num="28" count="6" type="stmt"/>
+        <line num="29" count="1" type="stmt"/>
+        <line num="30" count="1" type="stmt"/>
+        <line num="31" count="1" type="stmt"/>
+        <line num="40" count="14" type="stmt"/>
+        <line num="56" count="3" type="stmt"/>
+      </file>
+      <file name="GroupPage.js" path="C:\Users\Eier\Desktop\shopstop\01\src\components\grouppage\GroupPage.js">
+        <metrics statements="16" coveredstatements="14" conditionals="6" coveredconditionals="6" methods="8" coveredmethods="6"/>
+        <line num="19" count="6" type="stmt"/>
+        <line num="29" count="6" type="stmt"/>
+        <line num="37" count="5" type="stmt"/>
+        <line num="44" count="6" type="stmt"/>
+        <line num="45" count="2" type="stmt"/>
+        <line num="51" count="6" type="stmt"/>
+        <line num="52" count="0" type="stmt"/>
+        <line num="59" count="6" type="stmt"/>
+        <line num="60" count="0" type="stmt"/>
+        <line num="68" count="6" type="stmt"/>
+        <line num="69" count="1" type="stmt"/>
+        <line num="70" count="1" type="stmt"/>
+        <line num="84" count="8" type="stmt"/>
+        <line num="85" count="8" type="cond" truecount="2" falsecount="0"/>
+        <line num="104" count="1" type="stmt"/>
+        <line num="145" count="2" type="stmt"/>
+      </file>
+      <file name="ShoppingList.js" path="C:\Users\Eier\Desktop\shopstop\01\src\components\grouppage\ShoppingList.js">
+        <metrics statements="8" coveredstatements="7" conditionals="2" coveredconditionals="2" methods="3" coveredmethods="2"/>
+        <line num="14" count="3" type="stmt"/>
+        <line num="21" count="3" type="stmt"/>
+        <line num="22" count="1" type="stmt"/>
+        <line num="24" count="0" type="stmt"/>
+        <line num="35" count="3" type="stmt"/>
+        <line num="36" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="37" count="3" type="stmt"/>
+        <line num="47" count="4" type="stmt"/>
+      </file>
+      <file name="ShoppingListView.js" path="C:\Users\Eier\Desktop\shopstop\01\src\components\grouppage\ShoppingListView.js">
+        <metrics statements="41" coveredstatements="35" conditionals="6" coveredconditionals="6" methods="17" coveredmethods="13"/>
+        <line num="15" count="6" type="stmt"/>
+        <line num="24" count="6" type="stmt"/>
+        <line num="25" count="1" type="stmt"/>
+        <line num="31" count="1" type="stmt"/>
+        <line num="32" count="1" type="stmt"/>
+        <line num="33" count="1" type="stmt"/>
+        <line num="34" count="1" type="stmt"/>
+        <line num="44" count="6" type="cond" truecount="2" falsecount="0"/>
+        <line num="45" count="1" type="stmt"/>
+        <line num="47" count="6" type="stmt"/>
+        <line num="48" count="5" type="stmt"/>
+        <line num="57" count="6" type="stmt"/>
+        <line num="58" count="5" type="stmt"/>
+        <line num="59" count="5" type="stmt"/>
+        <line num="62" count="0" type="stmt"/>
+        <line num="63" count="0" type="stmt"/>
+        <line num="64" count="0" type="stmt"/>
+        <line num="68" count="0" type="stmt"/>
+        <line num="71" count="0" type="stmt"/>
+        <line num="86" count="6" type="stmt"/>
+        <line num="87" count="4" type="stmt"/>
+        <line num="88" count="4" type="stmt"/>
+        <line num="89" count="6" type="stmt"/>
+        <line num="91" count="4" type="stmt"/>
+        <line num="100" count="6" type="stmt"/>
+        <line num="101" count="3" type="cond" truecount="4" falsecount="0"/>
+        <line num="103" count="1" type="stmt"/>
+        <line num="105" count="2" type="stmt"/>
+        <line num="106" count="2" type="stmt"/>
+        <line num="111" count="0" type="stmt"/>
+        <line num="119" count="6" type="stmt"/>
+        <line num="120" count="1" type="stmt"/>
+        <line num="129" count="6" type="stmt"/>
+        <line num="130" count="1" type="stmt"/>
+        <line num="131" count="2" type="stmt"/>
+        <line num="133" count="1" type="stmt"/>
+        <line num="134" count="1" type="stmt"/>
+        <line num="135" count="1" type="stmt"/>
+        <line num="146" count="13" type="stmt"/>
+        <line num="150" count="2" type="stmt"/>
+        <line num="162" count="3" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components.independent">
+      <metrics statements="43" coveredstatements="40" conditionals="26" coveredconditionals="23" methods="11" coveredmethods="11"/>
+      <file name="Header.js" path="C:\Users\Eier\Desktop\shopstop\01\src\components\independent\Header.js">
+        <metrics statements="15" coveredstatements="14" conditionals="9" coveredconditionals="8" methods="5" coveredmethods="5"/>
+        <line num="19" count="8" type="cond" truecount="4" falsecount="0"/>
+        <line num="21" count="42" type="stmt"/>
+        <line num="26" count="8" type="stmt"/>
+        <line num="27" count="8" type="stmt"/>
+        <line num="37" count="8" type="stmt"/>
+        <line num="38" count="32" type="stmt"/>
+        <line num="40" count="1" type="stmt"/>
+        <line num="55" count="8" type="stmt"/>
+        <line num="56" count="42" type="cond" truecount="4" falsecount="1"/>
+        <line num="58" count="0" type="stmt"/>
+        <line num="65" count="5" type="stmt"/>
+        <line num="72" count="3" type="stmt"/>
+        <line num="79" count="2" type="stmt"/>
+        <line num="86" count="32" type="stmt"/>
+        <line num="96" count="8" type="stmt"/>
+      </file>
+      <file name="Icon.js" path="C:\Users\Eier\Desktop\shopstop\01\src\components\independent\Icon.js">
+        <metrics statements="21" coveredstatements="19" conditionals="17" coveredconditionals="15" methods="2" coveredmethods="2"/>
+        <line num="12" count="13" type="cond" truecount="1" falsecount="0"/>
+        <line num="13" count="202" type="stmt"/>
+        <line num="25" count="13" type="stmt"/>
+        <line num="26" count="202" type="cond" truecount="14" falsecount="2"/>
+        <line num="27" count="32" type="stmt"/>
+        <line num="28" count="15" type="stmt"/>
+        <line num="29" count="25" type="stmt"/>
+        <line num="30" count="9" type="stmt"/>
+        <line num="31" count="5" type="stmt"/>
+        <line num="32" count="6" type="stmt"/>
+        <line num="33" count="15" type="stmt"/>
+        <line num="34" count="21" type="stmt"/>
+        <line num="35" count="10" type="stmt"/>
+        <line num="36" count="32" type="stmt"/>
+        <line num="37" count="8" type="stmt"/>
+        <line num="38" count="7" type="stmt"/>
+        <line num="39" count="14" type="stmt"/>
+        <line num="40" count="0" type="stmt"/>
+        <line num="41" count="3" type="stmt"/>
+        <line num="42" count="0" type="stmt"/>
+        <line num="46" count="13" type="stmt"/>
+      </file>
+      <file name="LogoutButton.js" path="C:\Users\Eier\Desktop\shopstop\01\src\components\independent\LogoutButton.js">
+        <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
+        <line num="15" count="18" type="stmt"/>
+        <line num="16" count="2" type="stmt"/>
+        <line num="17" count="2" type="stmt"/>
+        <line num="26" count="34" type="stmt"/>
+        <line num="29" count="2" type="stmt"/>
+        <line num="37" count="8" type="stmt"/>
+      </file>
+      <file name="NotFound.js" path="C:\Users\Eier\Desktop\shopstop\01\src\components\independent\NotFound.js">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="16" count="6" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components.login">
+      <metrics statements="22" coveredstatements="22" conditionals="4" coveredconditionals="3" methods="9" coveredmethods="9"/>
+      <file name="LoginPage.js" path="C:\Users\Eier\Desktop\shopstop\01\src\components\login\LoginPage.js">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="19" count="5" type="stmt"/>
+        <line num="33" count="2" type="stmt"/>
+      </file>
+      <file name="Loginform.js" path="C:\Users\Eier\Desktop\shopstop\01\src\components\login\Loginform.js">
+        <metrics statements="16" coveredstatements="16" conditionals="4" coveredconditionals="3" methods="6" coveredmethods="6"/>
+        <line num="11" count="9" type="stmt"/>
+        <line num="23" count="9" type="stmt"/>
+        <line num="24" count="4" type="stmt"/>
+        <line num="25" count="4" type="cond" truecount="2" falsecount="0"/>
+        <line num="26" count="2" type="stmt"/>
+        <line num="29" count="2" type="stmt"/>
+        <line num="42" count="9" type="stmt"/>
+        <line num="43" count="2" type="stmt"/>
+        <line num="44" count="2" type="stmt"/>
+        <line num="45" count="2" type="stmt"/>
+        <line num="46" count="2" type="stmt"/>
+        <line num="52" count="9" type="stmt"/>
+        <line num="53" count="2" type="stmt"/>
+        <line num="54" count="4" type="stmt"/>
+        <line num="66" count="16" type="stmt"/>
+        <line num="91" count="3" type="stmt"/>
+      </file>
+      <file name="RegisterButton.js" path="C:\Users\Eier\Desktop\shopstop\01\src\components\login\RegisterButton.js">
+        <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="11" count="4" type="stmt"/>
+        <line num="12" count="1" type="stmt"/>
+        <line num="20" count="5" type="stmt"/>
+        <line num="28" count="8" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components.profile">
+      <metrics statements="5" coveredstatements="5" conditionals="2" coveredconditionals="2" methods="3" coveredmethods="3"/>
+      <file name="ProfilePage.js" path="C:\Users\Eier\Desktop\shopstop\01\src\components\profile\ProfilePage.js">
+        <metrics statements="3" coveredstatements="3" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2"/>
+        <line num="18" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="28" count="1" type="stmt"/>
+        <line num="41" count="2" type="stmt"/>
+      </file>
+      <file name="ProfileView.js" path="C:\Users\Eier\Desktop\shopstop\01\src\components\profile\ProfileView.js">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="15" count="2" type="stmt"/>
+        <line num="27" count="2" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components.register">
+      <metrics statements="35" coveredstatements="32" conditionals="19" coveredconditionals="16" methods="12" coveredmethods="10"/>
+      <file name="LoginButton.js" path="C:\Users\Eier\Desktop\shopstop\01\src\components\register\LoginButton.js">
+        <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="12" count="3" type="stmt"/>
+        <line num="13" count="1" type="stmt"/>
+        <line num="21" count="3" type="stmt"/>
+        <line num="29" count="8" type="stmt"/>
+      </file>
+      <file name="RegisterForm.js" path="C:\Users\Eier\Desktop\shopstop\01\src\components\register\RegisterForm.js">
+        <metrics statements="29" coveredstatements="26" conditionals="19" coveredconditionals="16" methods="9" coveredmethods="7"/>
+        <line num="13" count="9" type="stmt"/>
+        <line num="30" count="9" type="stmt"/>
+        <line num="31" count="28" type="stmt"/>
+        <line num="32" count="28" type="cond" truecount="4" falsecount="0"/>
+        <line num="34" count="10" type="stmt"/>
+        <line num="36" count="18" type="stmt"/>
+        <line num="45" count="9" type="stmt"/>
+        <line num="46" count="4" type="stmt"/>
+        <line num="47" count="4" type="stmt"/>
+        <line num="48" count="4" type="stmt"/>
+        <line num="49" count="4" type="stmt"/>
+        <line num="59" count="9" type="stmt"/>
+        <line num="60" count="4" type="cond" truecount="2" falsecount="0"/>
+        <line num="61" count="3" type="cond" truecount="1" falsecount="1"/>
+        <line num="62" count="3" type="stmt"/>
+        <line num="63" count="3" type="stmt"/>
+        <line num="65" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="67" count="0" type="stmt"/>
+        <line num="76" count="0" type="stmt"/>
+        <line num="80" count="0" type="stmt"/>
+        <line num="92" count="9" type="stmt"/>
+        <line num="93" count="4" type="cond" truecount="5" falsecount="0"/>
+        <line num="105" count="9" type="stmt"/>
+        <line num="106" count="4" type="stmt"/>
+        <line num="112" count="9" type="stmt"/>
+        <line num="113" count="4" type="stmt"/>
+        <line num="114" count="24" type="stmt"/>
+        <line num="125" count="41" type="stmt"/>
+        <line num="179" count="3" type="stmt"/>
+      </file>
+      <file name="RegisterPage.js" path="C:\Users\Eier\Desktop\shopstop\01\src\components\register\RegisterPage.js">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="19" count="3" type="stmt"/>
+        <line num="30" count="2" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components.shoppinglistdetail">
+      <metrics statements="128" coveredstatements="104" conditionals="38" coveredconditionals="31" methods="42" coveredmethods="30"/>
+      <file name="Item.js" path="C:\Users\Eier\Desktop\shopstop\01\src\components\shoppinglistdetail\Item.js">
+        <metrics statements="14" coveredstatements="11" conditionals="10" coveredconditionals="8" methods="7" coveredmethods="5"/>
+        <line num="13" count="6" type="stmt"/>
+        <line num="21" count="6" type="stmt"/>
+        <line num="22" count="1" type="stmt"/>
+        <line num="33" count="6" type="stmt"/>
+        <line num="34" count="1" type="stmt"/>
+        <line num="35" count="1" type="stmt"/>
+        <line num="36" count="1" type="stmt"/>
+        <line num="39" count="0" type="stmt"/>
+        <line num="40" count="0" type="stmt"/>
+        <line num="42" count="0" type="stmt"/>
+        <line num="58" count="13" type="stmt"/>
+        <line num="59" count="13" type="stmt"/>
+        <line num="76" count="1" type="stmt"/>
+        <line num="86" count="3" type="stmt"/>
+      </file>
+      <file name="PossibleItem.js" path="C:\Users\Eier\Desktop\shopstop\01\src\components\shoppinglistdetail\PossibleItem.js">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="16" count="9" type="stmt"/>
+        <line num="17" count="9" type="stmt"/>
+        <line num="25" count="2" type="stmt"/>
+      </file>
+      <file name="ShoppingListDetail.js" path="C:\Users\Eier\Desktop\shopstop\01\src\components\shoppinglistdetail\ShoppingListDetail.js">
+        <metrics statements="111" coveredstatements="90" conditionals="28" coveredconditionals="23" methods="34" coveredmethods="24"/>
+        <line num="18" count="4" type="stmt"/>
+        <line num="32" count="4" type="stmt"/>
+        <line num="33" count="4" type="cond" truecount="2" falsecount="0"/>
+        <line num="34" count="3" type="stmt"/>
+        <line num="35" count="3" type="stmt"/>
+        <line num="46" count="4" type="stmt"/>
+        <line num="47" count="3" type="stmt"/>
+        <line num="48" count="3" type="cond" truecount="1" falsecount="1"/>
+        <line num="49" count="3" type="stmt"/>
+        <line num="51" count="0" type="stmt"/>
+        <line num="54" count="0" type="stmt"/>
+        <line num="55" count="0" type="stmt"/>
+        <line num="58" count="0" type="stmt"/>
+        <line num="59" count="0" type="stmt"/>
+        <line num="60" count="0" type="stmt"/>
+        <line num="64" count="0" type="stmt"/>
+        <line num="66" count="0" type="stmt"/>
+        <line num="74" count="3" type="stmt"/>
+        <line num="75" count="3" type="stmt"/>
+        <line num="76" count="3" type="stmt"/>
+        <line num="86" count="4" type="stmt"/>
+        <line num="87" count="3" type="stmt"/>
+        <line num="88" count="3" type="stmt"/>
+        <line num="89" count="3" type="stmt"/>
+        <line num="91" count="0" type="stmt"/>
+        <line num="92" count="0" type="stmt"/>
+        <line num="93" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="94" count="0" type="stmt"/>
+        <line num="97" count="0" type="stmt"/>
+        <line num="108" count="4" type="stmt"/>
+        <line num="109" count="12" type="stmt"/>
+        <line num="110" count="12" type="stmt"/>
+        <line num="111" count="12" type="stmt"/>
+        <line num="113" count="12" type="stmt"/>
+        <line num="121" count="4" type="stmt"/>
+        <line num="122" count="4" type="stmt"/>
+        <line num="131" count="4" type="stmt"/>
+        <line num="132" count="6" type="stmt"/>
+        <line num="133" count="6" type="stmt"/>
+        <line num="142" count="4" type="stmt"/>
+        <line num="143" count="4" type="stmt"/>
+        <line num="144" count="4" type="stmt"/>
+        <line num="149" count="0" type="stmt"/>
+        <line num="156" count="4" type="stmt"/>
+        <line num="157" count="3" type="stmt"/>
+        <line num="163" count="4" type="stmt"/>
+        <line num="164" count="6" type="stmt"/>
+        <line num="173" count="4" type="stmt"/>
+        <line num="174" count="18" type="stmt"/>
+        <line num="175" count="18" type="stmt"/>
+        <line num="176" count="12" type="stmt"/>
+        <line num="178" count="18" type="stmt"/>
+        <line num="188" count="4" type="stmt"/>
+        <line num="189" count="6" type="stmt"/>
+        <line num="190" count="6" type="cond" truecount="1" falsecount="1"/>
+        <line num="191" count="6" type="cond" truecount="2" falsecount="0"/>
+        <line num="192" count="3" type="stmt"/>
+        <line num="193" count="3" type="stmt"/>
+        <line num="195" count="3" type="stmt"/>
+        <line num="196" count="3" type="stmt"/>
+        <line num="207" count="4" type="stmt"/>
+        <line num="208" count="9" type="stmt"/>
+        <line num="209" count="9" type="stmt"/>
+        <line num="221" count="4" type="stmt"/>
+        <line num="222" count="18" type="cond" truecount="2" falsecount="0"/>
+        <line num="223" count="18" type="stmt"/>
+        <line num="226" count="0" type="stmt"/>
+        <line num="227" count="0" type="stmt"/>
+        <line num="228" count="0" type="stmt"/>
+        <line num="234" count="0" type="stmt"/>
+        <line num="236" count="0" type="stmt"/>
+        <line num="251" count="4" type="stmt"/>
+        <line num="252" count="9" type="stmt"/>
+        <line num="253" count="9" type="stmt"/>
+        <line num="261" count="4" type="stmt"/>
+        <line num="262" count="12" type="stmt"/>
+        <line num="263" count="12" type="cond" truecount="2" falsecount="0"/>
+        <line num="265" count="6" type="stmt"/>
+        <line num="272" count="4" type="stmt"/>
+        <line num="273" count="6" type="stmt"/>
+        <line num="274" count="6" type="stmt"/>
+        <line num="275" count="6" type="cond" truecount="2" falsecount="0"/>
+        <line num="276" count="3" type="cond" truecount="1" falsecount="1"/>
+        <line num="277" count="3" type="stmt"/>
+        <line num="280" count="3" type="stmt"/>
+        <line num="290" count="4" type="stmt"/>
+        <line num="291" count="3" type="stmt"/>
+        <line num="293" count="3" type="stmt"/>
+        <line num="304" count="16" type="cond" truecount="2" falsecount="0"/>
+        <line num="329" count="0" type="stmt"/>
+        <line num="332" count="0" type="stmt"/>
+        <line num="350" count="9" type="stmt"/>
+        <line num="366" count="9" type="stmt"/>
+        <line num="385" count="4" type="stmt"/>
+        <line num="386" count="3" type="stmt"/>
+        <line num="398" count="3" type="stmt"/>
+        <line num="399" count="3" type="stmt"/>
+        <line num="400" count="3" type="stmt"/>
+        <line num="401" count="3" type="stmt"/>
+        <line num="403" count="3" type="stmt"/>
+        <line num="404" count="3" type="stmt"/>
+        <line num="405" count="3" type="stmt"/>
+        <line num="406" count="3" type="stmt"/>
+        <line num="408" count="3" type="stmt"/>
+        <line num="409" count="3" type="stmt"/>
+        <line num="410" count="3" type="stmt"/>
+        <line num="411" count="3" type="stmt"/>
+        <line num="412" count="3" type="stmt"/>
+        <line num="413" count="3" type="stmt"/>
+        <line num="414" count="3" type="stmt"/>
+        <line num="420" count="2" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>

@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>JSDoc: Source: components/grouppage/GroupPage.js</title>
+
+    <script src="scripts/prettify/prettify.js"> </script>
+    <script src="scripts/prettify/lang-css.js"> </script>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <link type="text/css" rel="stylesheet" href="styles/prettify-tomorrow.css">
+    <link type="text/css" rel="stylesheet" href="styles/jsdoc-default.css">
+</head>
+
+<body>
+
+<div id="main">
+
+    <h1 class="page-title">Source: components/grouppage/GroupPage.js</h1>
+
+    
+
+
+
+    
+    <section>
+        <article>
+            <pre class="prettyprint source linenums"><code>import React, {Component} from 'react';
+import Header from '../independent/Header';
+import {withRouter} from 'react-router-dom';
+import ShoppingListView from './ShoppingListView';
+import Icon from '../independent/Icon';
+import NotFound from '../independent/NotFound';
+import GroupMemberView from '../groupmember/GroupMemberView';
+import axios from 'axios';
+import {BASEURL, PORT} from '../../Constants';
+import PropTypes from 'prop-types';
+
+/**
+ * This is the URL endpoint for "/&lt;groupname>". It renders different components
+ * depending on the width of the users window. It will show a list of
+ * shoppinglists that belongs to the group, and the members of the
+ * group if the window is wide enough. It also renders the header.
+ */
+export class GroupPage extends Component {
+    state = {
+      width: window.innerWidth,
+    }
+
+    /**
+     * This function will run when the window is loaded. It will set an
+     * eventlistener to check whenever the user resizes the window.
+     * If so, it will call the handleWindowResize function
+     */
+    componentDidMount() {
+      window.addEventListener('resize', this.handleWindowResize);
+    }
+
+    /**
+     * This function will run when the window is exited.
+     * It will remove the eventlistener added in componentDidMount
+     */
+    componentWillUnmount() {
+      window.removeEventListener('resize', this.handleWindowResize);
+    }
+
+    /**
+     * This function edits the state width of the window based on the window
+     * width of the user.
+     */
+    handleWindowResize = () => {
+      this.setState({width: window.innerWidth});
+    }
+
+    /**
+     * This function takes the user to the previous page visited.
+     */
+    goBack = () => {
+      this.props.history.goBack();
+    }
+
+    /**
+     * This method changes tha path to view the selected group
+     * member detail page
+     */
+    viewMembers = () => {
+      this.props.history.push(`/overview/
+        ${this.props.selectedGroup.groupname}/members`);
+    }
+
+    /**
+     * This function will delete the current selected group by clicking
+     * the delete group button. It will the redirect the user.
+     */
+    deleteGroup = () => {
+      this.props.history.replace('/overview');
+      axios.delete(`http://${BASEURL}:${PORT}/groups/
+        ${this.props.selectedGroup.groupid}`).catch();
+    }
+
+    /**
+     * This render function will render differently depending on if a user is
+     * logged in or not AND whether the width of the window is less than 500
+     * pixels. If the window width is less than 500, the groupmemberview will
+     * not be visible on the page, and will then have to be opened as any other
+     * page by clicking the button that appears in its place.
+     * @return {HTMLElement} - either the grouppage or NotFound depending
+     * on login status
+     */
+    render() {
+      const isMobile = this.state.width &lt;= 500;
+      return this.props.isLoggedIn ?
+            &lt;>
+              &lt;Header name={this.props.currentUser.username}
+                history={this.props.history}
+                logout={this.props.unloadStateAfterLogout} />
+              &lt;div className="main">
+                &lt;div className="inlineFlex">
+                  &lt;div className="inlineFlex">
+                    &lt;button
+                      className="blueButton"
+                      style={{marginRight: '5px'}}
+                      onClick={this.goBack}
+                    >
+                      &lt;Icon name="back" />
+                    &lt;/button>
+                    &lt;h3>{this.props.selectedGroup.groupname}&lt;/h3>
+                    &lt;button
+                      className="redButton"
+                      onClick={() => {
+                        this.deleteGroup();
+                      }}
+                    >
+                                Slett gruppe
+                      &lt;Icon name="delete" />
+                    &lt;/button>
+                  &lt;/div>
+                  {isMobile &amp;&amp;
+                            &lt;button className="blueButton"
+                              onClick={this.viewMembers}>
+                              &lt;Icon name="group" />
+                            &lt;/button>
+                  }
+                &lt;/div>
+                &lt;div className="inlineDiv">
+                  &lt;div style={{flexGrow: '3'}}>
+                    &lt;p>Våre handlelister:&lt;/p>
+                    &lt;ShoppingListView
+                      selectedGroup={this.props.selectedGroup}
+                      listClickHandler={this.props.listClickHandler}
+                      history={this.props.history} />
+                  &lt;/div>
+                  {!isMobile &amp;&amp;
+                            &lt;div style={{flexGrow: 1}} className="sidebar">
+                              &lt;GroupMemberView
+                                members={this.props.members}
+                                addMemberByEmail={this.props.addMemberByEmail}
+                                currentUser={this.props.currentUser}
+                                removeUserById={this.props.removeUserById}
+                                checkIfGroupAdmin={this.props.checkIfGroupAdmin}
+                                getGroupMembers={this.props.getGroupMembers}
+                              />
+                            &lt;/div>
+                  }
+                &lt;/div>
+              &lt;/div>
+            &lt;/> :
+            &lt;NotFound />;
+    }
+}
+
+GroupPage.propTypes = {
+  history: PropTypes.object,
+  selectedGroup: PropTypes.object,
+  listClickHandler: PropTypes.func,
+  members: PropTypes.array,
+  addMemberByEmail: PropTypes.func,
+  currentUser: PropTypes.object,
+  removeUserById: PropTypes.func,
+  checkIfGroupAdmin: PropTypes.func,
+  getGroupMembers: PropTypes.func,
+  isLoggedIn: PropTypes.bool,
+  unloadStateAfterLogout: PropTypes.func,
+};
+
+export default withRouter(GroupPage);
+</code></pre>
+        </article>
+    </section>
+
+
+
+
+</div>
+
+<nav>
+    <h2><a href="index.html">Home</a></h2><h3>Classes</h3><ul><li><a href="AddMember.html">AddMember</a></li><li><a href="AddShoppingList.html">AddShoppingList</a></li><li><a href="App.html">App</a></li><li><a href="GroupItem.html">GroupItem</a></li><li><a href="GroupMemberPage.html">GroupMemberPage</a></li><li><a href="GroupMemberView.html">GroupMemberView</a></li><li><a href="GroupPage.html">GroupPage</a></li><li><a href="Groups.html">Groups</a></li><li><a href="GroupView.html">GroupView</a></li><li><a href="Item.html">Item</a></li><li><a href="LoginButton.html">LoginButton</a></li><li><a href="LoginForm.html">LoginForm</a></li><li><a href="LoginPage.html">LoginPage</a></li><li><a href="LogoutButton.html">LogoutButton</a></li><li><a href="MemberItem.html">MemberItem</a></li><li><a href="NotFound.html">NotFound</a></li><li><a href="Overview.html">Overview</a></li><li><a href="PossibleItem.html">PossibleItem</a></li><li><a href="ProfilePage.html">ProfilePage</a></li><li><a href="ProfileView.html">ProfileView</a></li><li><a href="RegisterButton.html">RegisterButton</a></li><li><a href="RegisterForm.html">RegisterForm</a></li><li><a href="RegisterPage.html">RegisterPage</a></li><li><a href="ShoppingList.html">ShoppingList</a></li><li><a href="ShoppingListDetail.html">ShoppingListDetail</a></li><li><a href="ShoppingListView.html">ShoppingListView</a></li></ul><h3>Global</h3><ul><li><a href="global.html#accountButton">accountButton</a></li><li><a href="global.html#getLayout">getLayout</a></li><li><a href="global.html#Header">Header</a></li><li><a href="global.html#Icon">Icon</a></li></ul>
+</nav>
+
+<br class="clear">
+
+<footer>
+    Documentation generated by <a href="https://github.com/jsdoc/jsdoc">JSDoc 3.6.4</a> on Thu Apr 16 2020 12:30:25 GMT+0200 (Central European Summer Time)
+</footer>
+
+<script> prettyPrint(); </script>
+<script src="scripts/linenumber.js"> </script>
+</body>
+</html>
